@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0px 4px 40px -15px #333333; 
+    width: 98%; 
+}
+.title{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    max-height:40px;
+    background: #ffffff;
+    margin-right: 10px;
+}
+.logoTitle{
+    font-weight: 700;
+    font-size: 28px;
+    margin-left: 10px;
+}
+.menus{
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    color: #333333;
+}
+a{
+    padding: 5px;
+    text-decoration: none;
+    color: #333333;
+    box-sizing: border-box;
+    border: solid 1px transparent;
+}
+a:hover{
+    font-weight: 700;
+}
+
+.storeBody{
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+.productsSection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+.product{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    margin: 10px;
+    gap: 20px;
+  
+
+}
+
+.liProduct{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: 250px;
+    border: solid 3px #F5F5F5;
+
+}
+
+.liProduct:hover{
+    border: solid 3px #2E245E;
+}
+
+img{
+    max-width: 300px;
+    height: 219px;
+    margin-bottom: 10px;
+    background: #F5F5F5;
+    
+}
+
+.categorie{
+    padding: 5px;
+    background: #2E245E;
+    color: #ffffff;
+    font-size: 10px;
+    width: 50px;
+    margin: 20px;
+}
+h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    color: #333333;
+}
+p{
+    padding: 20px;  
+    color: #333333;
+}
+.value{
+    font-weight: 700;
+}
+
+.btnProduct{
+    border-style: none;
+    background: #ffffff;
+    display: flex;
+    cursor: pointer;
+    margin: 0 0 20px 10px;
+    box-sizing: border-box;
+    border: solid 1px transparent;
+    width: 145px;
+    
+}
+
+.btnProduct:hover{
+    border-bottom: solid 1px #333333;
+    
+}
+
+.cart{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+}
+.txtSearch{
+    border: none;
+    background:#F5F5F5;
+    margin-right: 2.5px;
+    padding: 15px;
+    width: 200px;
+    color: #000000;
+    outline: none;
+}
+
+.btnSearch{
+    margin-left: 2.5px;
+    border-style: none;
+    color: #ffffff;
+    background: #37268C;
+    cursor: pointer;
+    
+}
+.btnSearch:hover{
+    background: #2E245E;
+    color: #ffffff;
+    pointer-events: all;
+    
+}
+.cartList{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cartTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #37268C;
+    color: #ffffff;
+    width: 306px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.cartContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F5F5F5;
+    height: 250px;
+    width: 306px;
+}
+.cartContentList{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px
+}
+small{
+    font-size: 10px;
+    color: #333333;
+}
+
+.productsOnCart{
+ display: flex;
+ flex-direction: column;
+ max-height: 306px;
+ width: 306px;
+ overflow-y: auto;
+}
+.productOnCart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.imgContainer{
+    height: 100px;
+    width: 100px;
+}
+.imgOnCart{
+    height: 100px;
+    width: 100px;
+}
+.removeProduct{
+    border-style: none;
+    display: flex;
+    cursor: pointer;
+    margin: 0 0 20px 10px;
+    box-sizing: border-box;
+    border: solid 1px transparent;
+}
+.removeProduct:hover{
+    border-bottom: solid 1px #333333;
+}
+
+.totalFinal{
+    display: flex;
+    flex-direction: column;
+    background: #333333;
+    color: #ffffff;
+    width: 306px;
+}
+
+.amountTxtNum{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.amountText{
+    color: #F5F5F5
+}
+.amountNumber{
+    color: #F5F5F5;
+}
+.totalTxtNum{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.totalText{
+    color: #F5F5F5;
+}
+.totalNumber{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    color: #F5F5F5;
+}

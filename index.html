@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/database.js" defer></script>
+    <script src="./js/index.js" defer></script>
+    <title>Loja O que Cabe</title>
+</head>
+
+<body>
+    <header class="head">
+        <div class="title">
+            <img class="logo" src="./img/logo.png" alt="Logotipo da Loja">
+            <h1 class="logoTitle">O QUE ME CABE</h1>
+        </div>
+        <div class="menus">
+            <div ><a class="menu1" href="#">Todos</a></div>
+            <div ><a class="menu2" href="#">Acessórios</a></div>
+            <div ><a class="menu3" href="#">Calçados</a></div>
+            <div ><a class="menu4" href="#">Camisetas</a></div>
+        </div>
+    </header>
+    <main class="storeBody">
+        <section class="productsSection">
+          <ul class="product">
+
+          </ul>
+        </section>
+
+        <section class="cart">
+            <div class="search">
+                <input type="text" class="txtSearch" placeholder="Digite sua pesquisa">
+                <button type="submit" class="btnSearch">Pesquisar</button>
+            </div>
+            <div class="cartList">
+                <div class="cartTitle">
+                    <h4 class="cartTitleHead">Carrinho de compras</h4>
+                </div>
+                <section class="cartContent">
+                    <ul class="productsOnCart">
+
+                    </ul>
+
+                </section>
+                <div class="totalFinal">
+                    <div class="amountTxtNum">
+                        <div class="amount">
+                            <p class="amountText">Quantidade:</p>
+                        </div>
+                        <div>
+                            <p class="amountNumber"></p>
+                        </div>
+                    </div>
+                    <div class="totalTxtNum">
+                        <div>
+                            <p class="totalText">Total:</p>
+                        </div>
+                        <div class="totalNumber">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
